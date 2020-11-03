@@ -1,0 +1,35 @@
+{
+  "name": "autentication-user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dynamic-And-Online-Teaching-System/autentication-user.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dynamic-And-Online-Teaching-System/autentication-user/issues"
+  },
+  "homepage": "https://github.com/Dynamic-And-Online-Teaching-System/autentication-user#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "boom": "^7.3.0",
+    "fastest-validator": "^1.8.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
