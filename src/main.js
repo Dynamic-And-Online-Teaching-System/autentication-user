@@ -1,4 +1,3 @@
-
-// executa função
-const bs = require('./_config/bootstrap')
+// Importando e executando obj bootstrap
+const bs = require('./config/bootstrap')
 bs()

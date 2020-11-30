@@ -1,9 +1,7 @@
-const controllers = require('./controllers')
-
+// importando controladores
+const controllers = require ('../auth/controllers')
 
 module.exports = router => {
 
-    router.get('/v1/api/auth', controllers.auth)
-
-
+    router.post('/v1/api/auth', controllers.auth)
 }
